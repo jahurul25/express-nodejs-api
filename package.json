@@ -1,0 +1,28 @@
+{
+  "name": "topperjobs",
+  "version": "1.0.0",
+  "description": "This is freelancing site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Md. Jahurul Islam",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.3",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.6.0",
+    "path": "^0.12.7",
+    "validator": "^12.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
